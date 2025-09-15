@@ -1,50 +1,94 @@
 # 🚀 IFC DISTRIBUTOR
 
-![Banner](https://raw.githubusercontent.com/TheRaven815/ifc_distributor_releases/refs/heads/main/main/assests/banner.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheRaven815/ifc_distributor_releases/refs/heads/main/main/assests/banner.png" alt="IFC Distributor Banner" width="600"/>
+</p>
 
-Bu uygulama ile hızlı ve hatasız IFC kopyalama ve yedekleme yapabilirsiniz...
+<p align="center">
+  <b>Hızlı, güvenilir ve kolay IFC kopyalama & yedekleme aracı</b>
+</p>
+
+---
 
 ## 📑 İçindekiler
-- [Özellikler](#özellikler)
-- [Kurulum](#kurulum)
-- [Kullanım](#kullanım)
-- [Ekran Görüntüleri](#ekran-görüntüleri)
-- [Katkıda Bulunma](#katkıda-bulunma)
-- [Lisans](#lisans)
+- [✨ Özellikler](#-özellikler)
+- [⚙️ Kurulum](#️-kurulum)
+- [▶️ Kullanım](#️-kullanım)
+- [📐 Kurallar](#-kurallar)
+- [🖼️ Ekran Görüntüleri](#-ekran-görüntüleri)
+- [👨‍💻 Geliştirici](#-geliştirici)
 
+---
 
 ## ✨ Özellikler
-- Hızlı ve güvenilir
-- Yedekleme
-- Özel kurallar tanımlayabilme
+✅ Hızlı ve güvenilir  
+✅ Otomatik yedekleme  
+✅ Özel kurallar tanımlayabilme  
+✅ Otomatik güncelleme desteği  
+
+---
 
 ## ⚙️ Kurulum
+- Programı indirip bir klasöre yerleştirmeniz yeterlidir.  
+- Portable olduğu için herhangi bir kurulum gerektirmez. 🚀  
 
-git clone https://github.com/kullanici/proje.git
-cd proje
-pip install -r requirements.txt
-
+---
 
 ## ▶️ Kullanım
+1. Programı indirin ve bir klasöre kaydedin.  
+2. Çalıştırın ve **"Area Settings"** kısmından alan adı + klasör yollarını kaydedin.  
+3. Anasayfada soldaki listeden kopyalamak/ yedeklemek istediğiniz alanları seçin.  
+4. **"Run"** tuşuna basın ✔️  
 
-1. Programı indirin ve bir klasöre kaydedin.
-2. Programı çalıştırıp, "Area Settings" kısmından alan adı ve klasör yollarını kaydedin.
-3. Anasayfada soldaki listeden hangi alanların ifcleri kopyalamak ve yedeklemek istediğinizi seçin.
-4. Ve "Run" tuşuna basın. 
+---
 
+## 📐 Kurallar
 
-## 🖼️ Ekran Görüntüleri
+🔹 **Varsayılan kural**:  
+Area eklendikten sonra **Settings → Default** kısmından kural tanımlayabilirsiniz.  
 
-Ana ekran:  
-![Ana ekran](https://raw.githubusercontent.com/TheRaven815/ifc_distributor_releases/refs/heads/main/main/assests/main.png)
+Örneğin:  
+➡️ Rule: "{area}??.ifc"    
+➡️ `area adı + 2 karakter + .ifc` olan dosyaları seçer.  
+✔️ 301 için → `30102.ifc`, `301aa.ifc`  
 
-Ayarlar:  
-![Ayarlar](https://raw.githubusercontent.com/kullanici/proje/main/assets/screenshot2.png)
+---
 
+🔹 **Özel kural ekleme**:  
+Yeni area eklerken ismin sonuna **`_spec`** eklenmeli.  
+Örn: `301_spec`  
 
-## 🤝 Katkıda Bulunma
-Katkılar memnuniyetle karşılanır. PR açabilirsiniz.
+- `?` → Tek karakter  
+- `*` → Tüm karakterler  
 
-## 📜 Lisans
-MIT License
+Örnekler:  
+- `*_PLATE.ifc` → Sonu `_PLATE.ifc` ile biten tüm dosyalar  
+- `?????_PLATE.ifc` → `30102_PLATE.ifc` gibi 5 karakter + `_PLATE.ifc` olan dosyalar  
 
+---
+
+## 🖼️ Ekran Görüntüleri  
+
+**Main**  
+<img src="https://raw.githubusercontent.com/TheRaven815/ifc_distributor_releases/refs/heads/main/main/assests/main.png" width="600"/>  
+
+**Area Settings**  
+<img src="https://raw.githubusercontent.com/TheRaven815/ifc_distributor_releases/refs/heads/main/main/assests/area_settings.png" width="600"/>  
+
+**Settings**  
+<img src="https://raw.githubusercontent.com/TheRaven815/ifc_distributor_releases/refs/heads/main/main/assests/settings.png" width="600"/>  
+
+**History**  
+<img src="https://raw.githubusercontent.com/TheRaven815/ifc_distributor_releases/refs/heads/main/main/assests/history.png" width="600"/>  
+
+**Info**  
+<img src="https://raw.githubusercontent.com/TheRaven815/ifc_distributor_releases/refs/heads/main/main/assests/info.png" width="600"/>  
+
+---
+
+## 👨‍💻 Geliştirici
+
+📌 **Coded by:** *Enes Eliağır (RAVEN)*  
+📅 **Copyright © 2025 RAVEN.** All rights reserved.  
+
+---
