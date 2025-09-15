@@ -35,7 +35,7 @@
 ---
 
 ## ▶️ Kullanım
-1. Programı indirin ve bir klasöre kaydedin.  
+1. Programı [**buradan indirin**](https://github.com/TheRaven815/ifc_distributor_releases/releases/latest) ve bir klasöre kaydedin.  
 2. Çalıştırın ve **"Area Settings"** kısmından alan adı + klasör yollarını kaydedin.  
 3. Anasayfada soldaki listeden kopyalamak/ yedeklemek istediğiniz alanları seçin.  
 4. **"Run"** tuşuna basın ✔️  
